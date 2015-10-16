@@ -2,7 +2,7 @@
 %include lhs2TeX.fmt
 \begin{document}
 \begin{code}
-{-# OPTIONS -XUnboxedTuples -XBangPatterns -XNamedFieldPuns -XRecordWildCards -XMagicHash -cpp #-}
+{-# OPTIONS -XUnboxedTuples -XBangPatterns -XNamedFieldPuns -XRecordWildCards -XMagicHash -cpp -XFlexibleContexts #-}
 -- | This module contains the basic functions for manipulating Bezier curves. It is heavily
 -- based on the book by N. M. Patrikalakis and T. Maekawa, Shape Interrogation for Computer
 -- Aided Design and Manufacturing.
